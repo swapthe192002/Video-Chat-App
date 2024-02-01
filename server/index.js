@@ -2,7 +2,7 @@ const { Server } = require("socket.io");
 
 const io = new Server({
   cors: {
-    origin: "https://video-chat-app-pow7.vercel.app", // Your frontend URL
+    origin: "https://video-chat-app-pow7.vercel.app/", // Your frontend URL
     methods: ["GET", "POST"],
     credentials: true
   }
